@@ -1,0 +1,2 @@
+c:\users\wisn shaftler\documents\visual studio 2012\Projects\pancha hotel eka\pancha hotel eka\bin\Debug\pancha hotel eka.exe.config
+D:\pancha hotel eka\pancha hotel eka\bin\Debug\pancha hotel eka.exe.config
