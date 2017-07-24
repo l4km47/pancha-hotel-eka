@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Facebook, Version=6.0.10.0, Culture=neutral, PublicKeyToken=58cb4f2111d1e6de, processorArchitecture=MSIL">
+      <HintPath>..\packages\Facebook.7.0.6\lib\net45\Facebook.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,17 +48,156 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FlatUI\FlatAlertBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatClose.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatColorPalette.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatColors.cs" />
+    <Compile Include="FlatUI\FlatComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatListBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatMax.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatMini.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatNumeric.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatStatusBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatStickyButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatToggle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatTrackBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FlatTreeView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\FormSkin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FlatUI\Helpers.cs" />
+    <Compile Include="FlatUI\MouseState.cs" />
+    <Compile Include="NavigationItems.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Navgationbar\NavBarItem.cs" />
+    <Compile Include="Navgationbar\Themes\Definitions\BlueTheme.cs" />
+    <Compile Include="Navgationbar\Themes\Definitions\DarkTheme.cs" />
+    <Compile Include="Navgationbar\Themes\Definitions\ThemeEnums.cs" />
+    <Compile Include="Navgationbar\Themes\ITheme.cs" />
+    <Compile Include="Navgationbar\Themes\ThemeSelector.cs" />
+    <Compile Include="Navgationbar\Z80_Navigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Navgationbar\Z80_Navigation.Designer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StoreitemAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreitemAdd.Designer.cs">
+      <DependentUpon>StoreitemAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StoreitemUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StoreitemUpdate.Designer.cs">
+      <DependentUpon>StoreitemUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Youtube-skin\Brushes.cs" />
+    <Compile Include="Youtube-skin\Colors.cs" />
+    <Compile Include="Youtube-skin\HelperMethods.cs" />
+    <Compile Include="Youtube-skin\Pens.cs" />
+    <Compile Include="Youtube-skin\YoutubeButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeButtonX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YouTubeGroupBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeHorizontalTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeLinkLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeSeperator.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeTabControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Youtube-skin\YoutubeTextbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Navgationbar\Z80_Navigation.resx" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -64,6 +207,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="StoreitemAdd.resx">
+      <DependentUpon>StoreitemAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StoreitemUpdate.resx">
+      <DependentUpon>StoreitemUpdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -1,2 +1,15 @@
 c:\users\wisn shaftler\documents\visual studio 2012\Projects\pancha hotel eka\pancha hotel eka\bin\Debug\pancha hotel eka.exe.config
 D:\pancha hotel eka\pancha hotel eka\bin\Debug\pancha hotel eka.exe.config
+D:\pancha-hotel-eka\pancha hotel eka\bin\Debug\pancha hotel eka.exe.config
+D:\pancha-hotel-eka\pancha hotel eka\bin\Debug\pancha hotel eka.exe
+D:\pancha-hotel-eka\pancha hotel eka\bin\Debug\pancha hotel eka.pdb
+D:\pancha-hotel-eka\pancha hotel eka\obj\Debug\pancha_hotel_eka.Form1.resources
+D:\pancha-hotel-eka\pancha hotel eka\obj\Debug\pancha_hotel_eka.Navgationbar.Z80_Navigation.resources
+D:\pancha-hotel-eka\pancha hotel eka\obj\Debug\pancha_hotel_eka.Properties.Resources.resources
+D:\pancha-hotel-eka\pancha hotel eka\obj\Debug\pancha_hotel_eka.StoreitemAdd.resources
+D:\pancha-hotel-eka\pancha hotel eka\obj\Debug\pancha_hotel_eka.UpdateStoreItem.resources
+D:\pancha-hotel-eka\pancha hotel eka\obj\Debug\pancha hotel eka.csproj.GenerateResource.Cache
+D:\pancha-hotel-eka\pancha hotel eka\obj\Debug\pancha hotel eka.exe
+D:\pancha-hotel-eka\pancha hotel eka\obj\Debug\pancha hotel eka.pdb
+D:\pancha-hotel-eka\pancha hotel eka\bin\Debug\Facebook.dll
+D:\pancha-hotel-eka\pancha hotel eka\bin\Debug\Facebook.xml
